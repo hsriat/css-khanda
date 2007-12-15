@@ -1,0 +1,365 @@
+/* * * *
+www.khanda.co.in
+* * * */
+html {
+  overflow: hidden;
+}
+body {
+	margin: 0 auto;
+	background-color: #fff;
+}
+div.graphic, div.eraser, div.graphic div, div.eraser div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	color: #000;
+	padding: 0px;
+}
+div.eraser, div.eraser div {
+	color: #fff;
+}
+#sword_back_left, #sword_back_right {
+	font-size: 900px;
+	font-family: Tahoma;
+	margin-top: -450px;
+	margin-left: -300px;
+}
+#sword_back_right {
+	margin-left: -180px;
+}
+#sword_middle_left div, #sword_middle_right div {
+	font-size: 720px;
+	font-family: Tahoma;
+	margin-left: -227px;
+	margin-top: -420px;
+}
+#sword_middle_right div {
+	margin-left: -166px;
+}
+#sword_middle_left div#sml_1 {
+	margin-left: -229px;
+}
+#sword_middle_right div#smr_1 {
+	margin-left: -164px;
+}
+#sword_middle_left div#sml_2 {
+	padding-top: 10px;
+	margin-left: -232px;
+}
+#sword_middle_right div#smr_2 {
+	padding-top: 10px;
+	margin-left: -161px;
+}
+#sword_middle_left div#sml_3 {
+	padding-top: 20px;
+	margin-left: -234px;
+}
+#sword_middle_right div#smr_3 {
+	padding-top: 20px;
+	margin-left: -159px;
+}
+#sword_middle_left div#sml_4 {
+	padding-top: 30px;
+	margin-left: -233px;
+}
+#sword_middle_right div#smr_4 {
+	padding-top: 30px;
+	margin-left: -160px;
+}
+#sword_middle_left div#sml_5 {
+	padding-top: 40px;
+	margin-left: -231px;
+}
+#sword_middle_right div#smr_5 {
+	padding-top: 40px;
+	margin-left: -162px;
+}
+#khanda_left, #khanda_right {
+	font-size: 800px;
+	font-family: Verdana;
+	margin-left: -572px;
+	margin-top: -606px;
+}
+#khanda_right {
+	margin-left: -112px;
+}
+#chakker_outer, #chakker_inner, #chakker_centre {
+	font-size: 750px;
+	font-family: Tahoma;
+	margin-left: -204px;
+	margin-top: -420px;
+}
+#chakker_inner {
+	font-size: 600px;
+	margin-left: -169px;
+	margin-top: -355px;
+}
+#chakker_centre {
+	font-size: 500px;
+	margin-left: -142px;
+	margin-top: -425px;
+}
+#khanda_left_top, #khanda_right_top, #khanda_left_top1, #khanda_right_top1 {
+	font-size: 400px;
+	font-family: Courier;
+	margin-top: -495px;
+	margin-left: -141px;
+}
+body.webkit #khanda_left_top, body.webkit #khanda_right_top {
+	margin-top: -555px;
+}
+body.win #khanda_left_top, body.win #khanda_right_top, body.win #khanda_left_top1, body.win #khanda_right_top1 {
+	margin-top: -550px;
+	margin-left: -146px;
+	font-weight: bold;  
+}
+body.winff #khanda_left_top, body.winff #khanda_right_top, body.winff #khanda_left_top1, body.winff #khanda_right_top1 {
+	margin-top: -545px;
+	margin-left: -146px;
+	font-weight: bold;  
+}
+#khanda_left_top1, #khanda_right_top1 {
+	margin-top: -520px;
+}
+body.webkit #khanda_left_top1, body.webkit #khanda_right_top1 {
+	margin-top: -580px;
+}
+body.win #khanda_left_top1, body.win #khanda_right_top1 {
+	margin-top: -575px;
+}
+#khanda_left_bottom, #khanda_right_bottom {
+	font-size: 400px;
+	font-family: Courier;
+	margin-top: -47px;
+	margin-left: -141px;
+}
+body.webkit #khanda_left_bottom, body.webkit #khanda_right_bottom {
+	margin-top: -108px;
+}
+body.win #khanda_left_bottom, body.win #khanda_right_bottom {
+	margin-top: -70px;
+	margin-left: -146px;
+}
+body.winff #khanda_left_bottom, body.winff #khanda_right_bottom {
+	font-size: 350px;
+	font-family: Courier;
+	margin-top: -81px;
+	margin-left: -129px;
+}
+#sword_base_left, #sword_base_right {
+	font-family: Verdana;
+	font-size: 650px;
+	margin-top: -148px;
+	margin-left: -268px;
+}
+#sword_base_right {
+	margin-left: -84px;
+}
+#sword_outer_left div, #sword_outer_right div {
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 1000px;
+	margin-top: -630px;
+	margin-left: -660px;
+}
+#sword_outer_right div {
+	margin-left: -86px;
+}
+#sword_outer_left div#sol_1 {
+	margin-left: -800px;
+}
+#sword_outer_right div#sor_1 {
+	margin-left: 54px;
+}
+#sword_curve_left, #sword_curve_right {
+	font-size: 600px;
+	font-family: Tahoma;
+	margin-top: -202px;
+	margin-left: -260px;
+}
+#sword_curve_right {
+	margin-left: -66px;
+}
+#bottom_back {
+	font-size: 800px;
+	font-family: Tahoma;
+	margin-top: -260px;
+	margin-left: -210px;
+}
+#sword_left_handle, #sword_right_handle, #sword_left_handle1 div, #sword_right_handle1 div {
+	font-size: 400px;
+	font-family: Courier;
+	margin-top: -12px;
+	margin-left: -141px;
+}
+body.win #sword_left_handle, body.win #sword_right_handle, body.win #sword_left_handle1 div, body.win #sword_right_handle1 div {
+	font-size: 600px;
+	margin-left: -240px;
+}
+body.webkit #sword_left_handle, body.webkit #sword_right_handle {
+	margin-top: -72px;
+}
+body.win #sword_left_handle, body.win #sword_right_handle {
+	margin-top: -150px;
+}
+body.winff #sword_left_handle, body.winff #sword_right_handle {
+	margin-top: -66px;
+}
+body.win #sword_right_handle {
+	margin-left: -173px;
+}
+#sword_left_handle1 div, #sword_right_handle1 div {
+	margin-top: 68px;
+	margin-left: -33px;
+}
+body.webkit #sword_left_handle1 div, body.webkit #sword_right_handle1 div {
+	margin-top: 8px;
+}
+body.win #sword_left_handle1 div, body.win #sword_right_handle1 div {
+	margin-top: -15px;
+	margin-left: -160px;
+}
+body.winff #sword_left_handle1 div, body.winff #sword_right_handle1 div {
+	margin-top: 14px;
+	margin-left: -37px;
+}
+#sword_right_handle1 div {
+	margin-left: -250px;
+}
+body.win #sword_right_handle1 div {
+	margin-left: -255px;
+}
+body.winff #sword_right_handle1 div {
+	margin-left: -252px;
+}
+#sword_left_handle1 div#slh1_1, #sword_right_handle1 div#srh1_1 {
+	margin-top: 96px;
+}
+body.webkit #sword_left_handle1 div#slh1_1, body.webkit #sword_right_handle1 div#srh1_1 {
+	margin-top: 36px;
+}
+body.winff #sword_left_handle1 div#slh1_1, body.winff #sword_right_handle1 div#srh1_1 {
+	margin-top: 74px;
+}
+body.win #sword_left_handle1 div#slh1_1, body.win #sword_right_handle1 div#srh1_1 {
+	margin-top: 13px;
+}
+#sword_left_handle1 div#slh1_2, #sword_right_handle1 div#srh1_2 {
+	margin-top: 124px;
+}
+body.webkit #sword_left_handle1 div#slh1_2, body.webkit #sword_right_handle1 div#srh1_2 {
+	margin-top: 64px;
+}
+body.win #sword_left_handle1 div#slh1_2, body.win #sword_right_handle1 div#srh1_2 {
+	margin-top: 41px;
+}
+body.winff #sword_left_handle1 div#slh1_2, body.winff #sword_right_handle1 div#srh1_2 {
+	margin-top: 48px;
+}
+#handle_left_end, #handle_right_end {
+	font-size: 200px;
+	font-family: Tahoma;
+	margin-top: 50px;
+	margin-left: -155px;
+}
+#handle_right_end {
+	margin-left: 10px;
+}
+body.winff #handle_left_end, body.winff #handle_right_end {
+	margin-top: 43px;
+	margin-left: -155px;
+}
+body.winff #handle_right_end {
+	margin-left: 14px;
+}
+#khanda_handle {
+	font-size: 400px;
+	margin-top: -100px;
+	margin-left: -66px;
+}
+body.webkit #khanda_handle {
+	margin-top: -160px;
+}
+body.win #khanda_handle {
+	margin-top: -200px;
+	margin-left: -71px;
+	font-weight: bold;
+}
+body.winff #khanda_handle {
+	margin-top: -200px;
+	margin-left: -71px;
+	font-weight: bold;
+}
+#khanda_handle_bottom {
+	font-size: 160px;
+	font-family: Tahoma;
+	margin-top: 116px;
+	margin-left: -63px;
+}
+body.winff #khanda_handle_bottom {
+	margin-top: 120px;
+}
+#eraser_top, #eraser_bottom {
+	left: 0px;
+	width: 100%;
+	background-color: #fff;
+}
+#eraser_top {
+	margin-top: -860px;
+	height: 600px;
+}
+#eraser_bottom {
+	bottom: 0;
+	margin-top: 260px;
+}
+
+/*other stuff*/
+#copyright, #wgkk, #info, #contact_button, #view_animated {
+	position: fixed;
+	font-family: Tahoma;
+	color: #999;
+	font-size: 12px;
+	left: 0px;
+	padding: 10px;
+}
+body.win #copyright, body.win #wgkk, body.win #info, body.win #contact_button, body.win #view_animated {
+	position: absolute;
+}
+#copyright {
+	bottom: 20px;
+	text-align: left;
+}
+#wgkk {
+	top: 0px;
+}
+#info {
+	text-align: left;
+	left: 0px;
+	padding: 10px;
+	bottom: 50px;
+	width: 200px;
+	display: none;
+}
+#copyright:hover div {
+	display: block;
+}
+#contact_button, #view_animated {
+	border: #999 solid 1px;
+	padding: 3px 10px;
+	bottom: 30px;
+	right: 30px;
+	left: auto;
+	cursor: pointer;
+}
+#view_animated {
+	right: 120px;
+}
+#contact_button:hover, #view_animated:hover {
+	border-color: orange;
+	color: orange;
+	text-decoration: underline;
+}
+#preview {
+	display: none;
+}

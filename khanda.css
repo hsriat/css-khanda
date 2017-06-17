@@ -155,19 +155,22 @@ body.winff #khanda_left_bottom, body.winff #khanda_right_bottom {
 }
 #sword_outer_left div, #sword_outer_right div {
 	font-weight: bold;
-	font-family: Verdana;
-	font-size: 1000px;
-	margin-top: -630px;
-	margin-left: -660px;
+	font-family: Courier;
+	font-size: 1280px;
+	margin-top: -560px;
+	margin-left: -675px;
+}
+body.webkit #sword_outer_left div, body.webkit #sword_outer_right div {
+        margin-top: -630px;
 }
 #sword_outer_right div {
-	margin-left: -86px;
+	margin-left: -168px;
 }
 #sword_outer_left div#sol_1 {
 	margin-left: -800px;
 }
 #sword_outer_right div#sor_1 {
-	margin-left: 54px;
+	margin-left: -32px;
 }
 #sword_curve_left, #sword_curve_right {
 	font-size: 600px;

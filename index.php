@@ -1,31 +1,14 @@
-<?php
-
-require_once 'logger.php';
-
-$bodyclass = array();
-
-if (preg_match("/windows/i", $_SERVER['HTTP_USER_AGENT'])) {
-	array_push($bodyclass, "win");
-}
-elseif (preg_match("/webkit/i", $_SERVER['HTTP_USER_AGENT'])) {
-	array_push($bodyclass, "webkit"); #webkit only if not on windows
-}
-if (preg_match("/firefox/i", $_SERVER['HTTP_USER_AGENT'])) {
-	array_push($bodyclass, "ff");
-}
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<title>Khanda</title>
+<title>CSS Khanda</title>
 <link rel="stylesheet" type="text/css" href="khanda.css" />
 <link rel="shortcut icon" type="image/png" href="favicon.png" />
 <script type="text/javascript" src="script.js"></script>
 <meta name="description" content="CSS Khanda does not contain any image file but is only composed of ASCII characters rendered with CSS." />
 </head>
-<body class="<?php echo implode("", $bodyclass); ?>">
+<body>
 <!--khanda starts-->
 <div id="sword_back_left" class="graphic">&#176;</div>
 <div id="sword_back_right" class="graphic">&#176;</div>
@@ -86,13 +69,7 @@ if (preg_match("/firefox/i", $_SERVER['HTTP_USER_AGENT'])) {
 <div id="eraser_top" class="eraser"></div>
 <div id="eraser_bottom" class="eraser"></div>
 <!--khanda ends-->
-<div id="wgkk">ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਿਹ</div>
-<div id="copyright"><b>Khanda <i>with CSS</i></b><br />&copy;
-<?php echo date("Y"); ?>&nbsp;www.khanda.co.in<div id="info">This
-khanda does not contain any image file, and is only composed of
-characters rendered with the help of CSS.</div></div>
 <div id="view_animated">View Animated</div>
-<div id="contact_button">Contact</div>
 <div id="preview"><img src="preview.png" alt="" title="" /></div>
 </body>
 </html>

@@ -1,6 +1,3 @@
-/* * * *
-www.khanda.co.in
-* * * */
 html {
   overflow: hidden;
 }
@@ -315,7 +312,7 @@ body.winff #khanda_handle_bottom {
 }
 
 /*other stuff*/
-#copyright, #wgkk, #info, #contact_button, #view_animated {
+#view_animated {
 	position: fixed;
 	font-family: Tahoma;
 	color: #999;
@@ -323,28 +320,10 @@ body.winff #khanda_handle_bottom {
 	left: 0px;
 	padding: 10px;
 }
-body.win #copyright, body.win #wgkk, body.win #info, body.win #contact_button, body.win #view_animated {
+body.win #view_animated {
 	position: absolute;
 }
-#copyright {
-	bottom: 20px;
-	text-align: left;
-}
-#wgkk {
-	top: 0px;
-}
-#info {
-	text-align: left;
-	left: 0px;
-	padding: 10px;
-	bottom: 50px;
-	width: 200px;
-	display: none;
-}
-#copyright:hover div {
-	display: block;
-}
-#contact_button, #view_animated {
+#view_animated {
 	border: #999 solid 1px;
 	padding: 3px 10px;
 	bottom: 30px;
@@ -355,7 +334,7 @@ body.win #copyright, body.win #wgkk, body.win #info, body.win #contact_button, b
 #view_animated {
 	right: 120px;
 }
-#contact_button:hover, #view_animated:hover {
+#view_animated:hover {
 	border-color: orange;
 	color: orange;
 	text-decoration: underline;

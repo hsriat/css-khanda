@@ -1,10 +1,5 @@
 window.onload = function() {
-	document.body.onmousedown = function() {
-		//return false;
-	}
-	$('contact_button').onclick = function() {
-		window.location = 'mailto:contact@khanda.co.in';
-	}
+
 	/*view animated*/
 	var elements = Array();
 	var divs = document.getElementsByTagName('div')
